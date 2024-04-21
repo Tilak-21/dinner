@@ -1,2 +1,2 @@
-# dinner
-My dinner
+# diner
+web site for my diner

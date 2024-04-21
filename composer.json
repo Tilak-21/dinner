@@ -1,12 +1,13 @@
 {
-  "name": "Tilak-21/GreenRiverDev/328/dinner",
+  "name": "tostrander/328/diner",
   "authors": [
     {
-      "name": "Tilak chudasama",
-      "email": "chudasama.Tilak@student.greenriver.edu"
+      "name": "Tina Ostrander",
+      "email": "tostrander@greenriver.edu"
     }
   ],
-  "require": {
+  "require":
+  {
     "bcosca/fatfree-core": "dev-master"
   }
 }
