@@ -7,8 +7,14 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-// Require the autoload file
+// Require the necessary file
 require_once ('vendor/autoload.php');
+require_once ('model/data-layer.php');
+require_once ('model/validate.php');
+
+//$testValidate = "Apple";
+//var_dump($testValidate);
+//var_dump(getMeals());
 
 // Instantiate the F3 Base class
 $f3 = Base::instance();
@@ -64,6 +70,9 @@ $f3->route('GET /summary', function($f3) {
 $f3->route('GET|POST /order1', function($f3) {
     //echo '<h1>My Breakfast Menu</h1>';
 
+    $food = "";
+    $meal = "";
+
     // If the form has been posted
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
@@ -71,24 +80,43 @@ $f3->route('GET|POST /order1', function($f3) {
         //var_dump ($_POST);
 
         // Get the data from the post array
-        $food = $_POST['food'];
-        $meal = $_POST['meal'];
 
-        // If the data valid
-        if (true) {
+        if(validateFood($_POST['food'])) {
+            $food = $_POST['food'];
+        }
+        else {
+            $f3 -> set ('errors["food"]', "please enter a food: ");
+        }
+
+        if(isset($_POST['meal'])) {
+            $meal = $_POST['meal'];
+        }
+        else{
+            $meal = 'Lunch';
+        }
+
+//        // If the data valid
+//        if (true) {
 
             // Add the data to the session array
             $f3->set('SESSION.food', $food);
             $f3->set('SESSION.meal', $meal);
 
             // Send the user to the next form
+//        only if there are no errors
+        if(empty($f3->get('errors'))) {
             $f3->reroute('order2');
         }
-        else {
-            // Temporary
-            echo "<p>Validation errors</p>";
-        }
+//        }
+//        else {
+//            // Temporary
+//            echo "<p>Validation errors</p>";
+//        }
     }
+
+    //Get data fron the model
+    $meals = getMeals();
+    $f3 -> set('meals', $meals);
 
     // Render a view page
     $view = new Template();
@@ -124,6 +152,10 @@ $f3->route('GET|POST /order2', function($f3) {
             echo "<p>Validation errors</p>";
         }
     }
+
+    //Get data from the model
+    $condiment = getCondiment();
+    $f3 -> set('condiment', $condiment);
 
     // Render a view page
     $view = new Template();

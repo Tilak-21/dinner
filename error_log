@@ -1,0 +1,79 @@
+[02-May-2024 07:19:09 UTC] Array to string conversion
+[02-May-2024 07:19:09 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:24] 
+[02-May-2024 07:19:09 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:24] Base->{closure}()
+[02-May-2024 07:19:09 UTC] [GreenRiverDev/328/dinner/index.php:101] Preview->render()
+[02-May-2024 07:19:09 UTC] [GreenRiverDev/328/dinner/index.php:140] Base->run()
+[02-May-2024 07:19:11 UTC] Array to string conversion
+[02-May-2024 07:19:11 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:24] 
+[02-May-2024 07:19:11 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:24] Base->{closure}()
+[02-May-2024 07:19:11 UTC] [GreenRiverDev/328/dinner/index.php:101] Preview->render()
+[02-May-2024 07:19:11 UTC] [GreenRiverDev/328/dinner/index.php:140] Base->run()
+[02-May-2024 07:30:41 UTC] Call to undefined function getCondiments() [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/index.php:140]
+[02-May-2024 07:30:41 UTC] [GreenRiverDev/328/dinner/index.php:149] Base->run()
+[02-May-2024 07:33:00 UTC] Undefined variable $condiments
+[02-May-2024 07:33:00 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.11t7igl1jros2.php:16] 
+[02-May-2024 07:33:00 UTC] [GreenRiverDev/328/dinner/tmp/okml4hrksjo7.11t7igl1jros2.php:16] Base->{closure}()
+[02-May-2024 07:33:00 UTC] [GreenRiverDev/328/dinner/index.php:145] Preview->render()
+[02-May-2024 07:33:00 UTC] [GreenRiverDev/328/dinner/index.php:149] Base->run()
+[02-May-2024 08:02:47 UTC] Undefined variable $food
+[02-May-2024 08:02:47 UTC] [GreenRiverDev/328/dinner/index.php:102] 
+[02-May-2024 08:02:47 UTC] [GreenRiverDev/328/dinner/index.php:102] Base->{closure}()
+[02-May-2024 08:02:47 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:02:57 UTC] Undefined variable $food
+[02-May-2024 08:02:57 UTC] [GreenRiverDev/328/dinner/index.php:102] 
+[02-May-2024 08:02:57 UTC] [GreenRiverDev/328/dinner/index.php:102] Base->{closure}()
+[02-May-2024 08:02:57 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:04:16 UTC] Undefined variable $food
+[02-May-2024 08:04:16 UTC] [GreenRiverDev/328/dinner/index.php:102] 
+[02-May-2024 08:04:16 UTC] [GreenRiverDev/328/dinner/index.php:102] Base->{closure}()
+[02-May-2024 08:04:16 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:04:19 UTC] Undefined variable $food
+[02-May-2024 08:04:19 UTC] [GreenRiverDev/328/dinner/index.php:102] 
+[02-May-2024 08:04:19 UTC] [GreenRiverDev/328/dinner/index.php:102] Base->{closure}()
+[02-May-2024 08:04:19 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:04:24 UTC] Undefined variable $food
+[02-May-2024 08:04:24 UTC] [GreenRiverDev/328/dinner/index.php:102] 
+[02-May-2024 08:04:24 UTC] [GreenRiverDev/328/dinner/index.php:102] Base->{closure}()
+[02-May-2024 08:04:24 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:07:52 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:07:52 UTC] [GreenRiverDev/328/dinner/index.php:120] Preview->render()
+[02-May-2024 08:07:52 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:08:01 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:08:01 UTC] [GreenRiverDev/328/dinner/index.php:120] Preview->render()
+[02-May-2024 08:08:01 UTC] [GreenRiverDev/328/dinner/index.php:163] Base->run()
+[02-May-2024 08:10:29 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:10:29 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:10:29 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:12:43 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:12:43 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:12:43 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:12:46 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:12:46 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:12:46 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:12:49 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:12:49 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:12:49 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:14:02 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:14:02 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:14:02 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:14:04 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:14:04 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:14:04 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:14:07 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:14:07 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:14:07 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:14:11 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:14:11 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:14:11 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:19:51 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:19:51 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:19:51 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:19:53 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:19:53 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:19:53 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:19:57 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:19:57 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:19:57 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
+[02-May-2024 08:19:59 UTC] Unmatched ')' [/home2/tchudasa/public_html/GreenRiverDev/328/dinner/tmp/okml4hrksjo7.aqehzpjc6a95.php:27]
+[02-May-2024 08:19:59 UTC] [GreenRiverDev/328/dinner/index.php:123] Preview->render()
+[02-May-2024 08:19:59 UTC] [GreenRiverDev/328/dinner/index.php:166] Base->run()
